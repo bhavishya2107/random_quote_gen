@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+body {
+  text-align: center;
+}
+
+.wrapper {
+  text-align: center; 
+  width: 90%;
+  margin: 0 auto;
+  font-family: 'Ultra', serif;
+}
+
+
+.quotes {
+  border: 2px solid black;
+  height: 500px;
+  font-size: 40px;
+  padding: 20px;
+  font-weight: 100;
+  margin: 150px auto;
+  font-family: 'Barriecito', cursive;
+  background: black
+}
+
+.quotes-white {
+  border: 2px solid white;
+  height: 500px;
+  font-size: 40px;
+  padding: 20px;
+  font-weight: 100;
+  margin: 150px auto;
+  font-family: 'Barriecito', cursive;
+  background: none;
+  /* width: 80%; */
+}
+
+.dark_mode {
+  border-radius: 100%;
+  height: 40px;
+  width: 40px;
+  background: skyblue;
+  border: none;
+  outline: none;
+  position: relative;
+  bottom: 800px;
+  right: -500px;
+}
+
+.dark_mode:hover {
+  border-radius: 100%;
+  height: 40px;
+  width: 40px;
+  background: skyblue;
+  border: none;
+  outline: none;
+}
+
+.shareBtn {
+  height: 50px;
+  width: 100px;
+  background: lightgreen;
+  color: darkgreen;
+  font-weight: 700;
+}
+
+.genBtn {
+  height: 50px;
+  width: 100px;
+  background: lightgreen;
+  color: darkgreen;
+  font-weight: 700;
+}
+
+.btn {
+  display: flex;
+  justify-content: space-between;
+}
+/* media-queries */
+
+
